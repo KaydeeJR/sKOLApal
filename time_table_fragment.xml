@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:scrollbars="vertical"
+    tools:context=".ui.timetable.TimeTableFragment">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/timetable_time_column"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/timetable_time"
+                    android:textColor="@color/colorFont"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/timetable_monday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/timetable_monday"
+                    android:textColor="@color/colorFont"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/timetable_tuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/timetable_tuesday"
+                    android:textColor="@color/colorFont"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/timetable_wednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/timetable_wednesday"
+                    android:textColor="@color/colorFont"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/timetable_thursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/timetable_thursday"
+                    android:textColor="@color/colorFont"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/timetable_friday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/timetable_friday"
+                    android:textColor="@color/colorFont"
+                    android:textSize="20sp" />
+
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+</ScrollView>

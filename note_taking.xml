@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/notes_title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints="@string/autofill_hint_note_title"
+        android:hint="@string/autofill_hint_note_title"
+        android:inputType="textMultiLine|textAutoComplete|textAutoCorrect|text"
+        android:textColor="@color/colorFont"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/notes_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints="@string/autofill_hint_notes"
+            android:hint="@string/autofill_hint_notes"
+            android:inputType="textMultiLine|textAutoComplete|textAutoCorrect|text"
+            android:padding="10dp"
+            android:textColor="@color/colorFont"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
