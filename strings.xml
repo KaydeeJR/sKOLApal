@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SkolaPal</string>
+
+    <string name="bottom_navigation_menu_item_notes">Notes</string>
+    <string name="bottom_navigation_menu_item_study">Study</string>
+    <string name="bottom_navigation_menu_item_today">Today</string>
+    <string name="bottom_navigation_menu_item_todo">To-Do</string>
+    <string name="bottom_navigation_menu_item_timetable">Timetable</string>
+
+    <string name="timetable_monday">Monday</string>
+    <string name="timetable_tuesday">Tuesday</string>
+    <string name="timetable_wednesday">Wednesday</string>
+    <string name="timetable_thursday">Thursday</string>
+    <string name="timetable_friday">Friday</string>
+    <string name="timetable_time">Time</string>
+
+    <string name="autofill_hint_note_title">Enter Note Title</string>
+    <string name="autofill_hint_notes">Note</string>
+
+</resources>
